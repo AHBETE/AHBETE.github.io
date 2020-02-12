@@ -7,6 +7,12 @@ body{
     /* font-family: 'Courier New', Courier, monospace; */
 }
 
+@media screen and (max-width: 500px){
+    body{
+        width: 300px
+    }
+}
+
 h2{text-align: center;}
 
 p{line-height: 1.5;}
@@ -21,6 +27,12 @@ p{line-height: 1.5;}
     line-height: 0.4;
     font-size: small;
     background-color: #ffffff;
+}
+
+@media screen and (max-width: 500px){
+    .nav{
+        top: 80%;
+    }
 }
 
 /* unvisited link */
