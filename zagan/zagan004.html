@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -76,7 +76,17 @@
     <p>
         很早的时候就思考过，虽然我自己对于死亡并不恐惧，但是家人难免悲伤，然后设想过这样一种情况：<br>
         设想一台超级计算机，记录了我的一生，甚至包括了我的心理活动；我死后，我的子女，想我的时候就可以去找那台机器，那台机器和他们谈论过去的事情显然是没有问题的，就算子女提出了一些问题，假设有这样的算法，可以分析我生前的decision-making stratage，加以模拟，在交谈的层面上，虽然“我”已经不存在了，但是在其他人看起来，我似乎就像活着一样。<br>
+        最近甚至有了一些新的想法，几年前很火的美剧《西部世界》，讲了机器人觉醒的故事，机器人脑中“上帝的低语”非常神奇，但是感觉这一过程又是并非不能模拟的：继续以这台上文所述能和子女交流的超级计算机为例，在主程序的访问权限之上，再加入一个根据当前的情况(甚至可以和当前情况无关)，随即从记忆中(甚至新生成)一些关键词、语言段落、画面、旋律、气味、味道等等的刺激，feed给主程序，那么在主程序“看来”，这和潜意识，或是《西部世界》中“上帝的低语”似乎很类似了。
+    </p>
 
+    <hr>
+
+    <p>
+
+    </p>
+
+    <p>
+        ABT 2/14/2020
     </p>
 
     <div class="nav">
@@ -87,14 +97,22 @@
         <p style="text-indent: 1em;  line-height: 0.4;"><a href="index.html">Index</a></p>
     </div>
 
-    <div id="google_translate_element"></div>
-
-    <script type="text/javascript">
+    <div id="google_translate_element" style="position:fixed;top:10px;right:10px;z-index:2000;opacity:0.7"></div>
+    <script>
     function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'zh'}, 'google_translate_element');
+     
+        new google.translate.TranslateElement(
+            {
+                includedLanguages: 'en,zh-CN,hr,cs,da,nl,fr,de,el,iw,hu,ga,it,ja,ko,pt,ro,ru,sr,es,th,vi',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false, 
+            }, 
+            'google_translate_element'
+            // 感谢：https://blog.csdn.net/wokuailewozihao/article/details/82021709 玲听鑫声
+        );
+     
     }
     </script>
-    
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://translate.google.cn/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

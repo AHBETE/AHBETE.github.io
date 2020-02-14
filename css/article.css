@@ -65,3 +65,8 @@ footer{
     font-size: smaller;
     line-height: 0.4;
 }
+
+
+.goog-te-banner-frame{
+	display:none
+}
