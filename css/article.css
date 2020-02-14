@@ -68,5 +68,6 @@ footer{
 
 
 .goog-te-banner-frame{
-	display:none
+    /* display:none */
+    filter: grayscale();
 }
