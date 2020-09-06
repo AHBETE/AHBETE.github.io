@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+    <font face="Microsoft Yahei">
 <head>
-    <base target="_blank">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index for ABT's Notes</title>
@@ -35,22 +35,22 @@
             background-color: #ffffff;
         }
 
-        /* unvisited link */
+        /* unvisited tdnk */
         a:link {
         color: #222222;
         }
 
-        /* visited link */
+        /* visited tdnk */
         a:visited {
         color: #707070;
         }
 
-        /* mouse over link */
+        /* mouse over tdnk */
         a:hover {
         color: #aaaaaa;
         }
 
-        /* selected link */
+        /* selected tdnk */
         a:active {
         color: #aaaaaa;
         }
@@ -70,8 +70,55 @@
             /* display:none */
             filter: grayscale();
         }
+
+        table {
+        border-collapse: collapse;
+        /* font-family: Futura, Arial, sans-serif; */
+        }
+
+        caption {
+        font-size: larger;
+        margin: 1em auto;
+        }
+
+        th,td {
+        padding: .65em;
+        text-align: center;
+        }
+
+        th {
+        background: #555 nonerepeat scroll 0 0;
+        /* border: 1px sotdd #777; */
+        color: rgb(0, 0, 0);
+        }
+
+        /* td {
+        /* border: 1px sotdd #777; */
+        /* } */ 
+
+        tbody tr:nth-child(odd) {
+        background: #ccc;
+        }
+
+        th:first-child {
+        border-radius: 9px 0 0 0;
+        }
+
+        th:last-child {
+        border-radius: 0 9px 0 0;
+        }
+
+        tr:last-child td:first-child {
+        border-radius: 0 0 0 9px;
+        }
+
+        tr:last-child td:last-child {
+        border-radius: 0 0 9px 0;
+        }
+
     </style>
 </head>
+
 <body>
     <div class='main'>
         <h2>
@@ -81,7 +128,7 @@
         <hr>
 
         <p style="text-indent: 2em;">
-            <q>...</q>
+            <q>更多资源@Q群:463642884</q>
         </p>
 
         <hr>
@@ -90,74 +137,168 @@
             现代量子力学
         </h3>
 
-        <ul>
-            <li>
-                <a href="./MQ1.svg">L1 态向量表述/State Vector Formalism</a>
-            </li>
+        <table style="width: 100%;">
+            <tr>
+                <th style="width: 50%;">课/Lecure</th><th>笔记/Note</th><th>视频/Video</th>
+            </tr>
 
-            <li>
-                <a href="./MQ2.svg">L2 公设/Postulates</a>
-            </li>
+            <tr>
+            <td style="text-align: left;">L1 态向量表述/State Vector Formalism</td>
+            <td>
+                <a href="./MQ1.svg" target="_blank">Link</a>
+            </td>
+            <td>
+                <a href="https://www.bilibili.com/video/BV1wK411M7fG" target="_blank">Link</a>
+            </td>
+            </tr>
+            
 
-            <li>
-                <a href="./MQ2.5.svg">L2.5 海森堡图景/Heisenberg Picture</a>
-            </li>
-        </ul>
+            <tr>
+                <td style="text-align: left;">L2 公设/Posttableates</td>
+                <td>
+                    <a href="./MQ2.svg" target="_blank">Link</a>
+                </td>
+                <td>
+                    <a href="https://www.bilibili.com/video/BV14A411n7jY" target="_blank">Link</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: left;">L2.5 海森堡图景/Heisenberg Picture</td>
+                <td>
+                    <a href="./MQ2.5.svg" target="_blank">Link</a>
+                </td>
+                <td>
+                    <a href="https://www.bilibili.com/video/BV1bt4y1S7NV" target="_blank">Link</a>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
 
         <h3>
             量子通讯
         </h3>
 
-        <ul>
-            <li>
-                <a href="./Q1.svg">L1 量子力学101/Quantum Mech 101</a>
-            </li>
+        <table style="width: 100%;">
+            <tr>
+                <th style="width: 50%;">课/Lecure</th><th>笔记/Note</th><th>视频/Video</th>
+            </tr>
 
-            <li>
-                <a href="./Q2.svg">L2 叠加态&纠缠态/Superpostion & Entanglement</a>
-            </li>
+            <tr>
+                <td style="text-align: left;">L1 量子力学101/Quantum Mech 101</td>
+                <td>
+                    <a href="./Q1.svg" target="_blank">Link</a>
+                </td>
+                <td>
+                    <a href="https://www.bilibili.com/video/BV125411Y7s3" target="_blank">Link</a>
+                </td>
+            </tr>
 
-            <li>
-                <a href="./Q3.svg">L3 量子隐形传态/Quantum Teleportation</a>
-            </li>
+            <tr>
+                <td style="text-align: left;">L2 叠加态&纠缠态/Superpostion & Entanglement</td>
+                <td>
+                    <a href="./Q2.svg" target="_blank">Link</a>
+                </td>
+                <td>
+                    <a href="https://www.bilibili.com/video/BV1EZ4y1M73p" target="_blank">Link</a>
+                </td>
+            </tr>
 
-            <li>
-                <a href="./Q4.svg">L4 超密编码/Superdence Coding</a>
-            </li>
-        </ul>
+            <tr>
+                <td style="text-align: left;">L3 量子隐形传态/Quantum Teleportation</td>
+                <td>
+                    <a href="./Q3.svg" target="_blank">Link</a>
+                </td>
+                <td>
+                    <a href="https://www.bilibili.com/video/BV1Q541187p9" target="_blank">Link</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: left;">L4 超密编码/Superdence Coding</td>
+                <td>
+                    <a href="./Q4.svg" target="_blank">Link</a>
+                </td>
+                <td>
+                    <a href="https://www.bilibili.com/video/BV1Q541187p9" target="_blank">Link</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: left;">合集/Collection</td>
+                <td>
+                </td>
+                <td>
+                    <a href="https://www.bilibili.com/video/BV1354y1e72U" target="_blank">Link</a>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
 
         <h3>
             MATLAB & 计算科学
         </h3>
 
-        <ul>
-            <li>
-                <a href="./MATLAB12.svg">L1-2 基本操作&简单的Solver</a>
-            </li>
+        <table style="width: 100%;">
+            <tr>
+                <th style="width: 50%;">课/Lecure</th><th>笔记/Note</th><th>视频/Video</th>
+            </tr>
 
-            <li>
-                <a href="./MATLABP1.svg">P1 Solver实战-波函数</a>
-            </li>
-            
-            <li>
-                <a href="./MATLAB3.svg">L3 常微分 Solver/ODE Solver</a>
-            </li>
-        </ul>
+            <tr>
+                <td style="text-align: left;">L1-2 基本操作&简单的Solver</td>
+                <td>
+                    <a href="./MATLAB12.svg" target="_blank">Link</a>
+                </td>
+                <td>
+                    <a href="https://www.bilibili.com/video/BV1qZ4y1H7j1" target="_blank">L1_Link</a><br>
+                    <a href="https://www.bilibili.com/video/BV1bD4y1Q7n4" target="_blank">L2_Link</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: left;">P1 Solver实战-波函数</td>
+                <td>
+                    <a href="./MATLABP2.svg" target="_blank">Link</a>
+                </td>
+                <td>
+                    <a href="https://www.bilibili.com/video/BV1bD4y1Q7n4?p=2" target="_blank">Link</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: left;">L3 常微分 Solver/ODE Solver</td>
+                <td>
+                    <a href="./MATLAB3.svg" target="_blank">Link</a>
+                </td>
+                <td>
+                    <a href="https://www.bilibili.com/video/BV1nT4y1j76b" target="_blank">Link</a>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
     </div>
 
-    <div class="nav">
+    <!-- <div class="nav">
         <p>更多资源：</p>
         <img src="./qun.jpg" alt="qr code" width="90%">
-    </div>
+    </div> -->
 
     <div id="google_translate_element" style="position:fixed;top:10px;right:10px;z-index:2000;opacity:0.7;filter: grayscale();"></div>
+
+    <footer>
+        <p>AHBETE, 1996 - 2020</p>
+    </footer>
+
     <script>
     function googleTranslateElementInit() {
      
         new google.translate.TranslateElement(
             {
                 includedLanguages: 'en,zh-CN,hr,cs,da,nl,fr,de,el,iw,hu,ga,it,ja,ko,pt,ro,ru,sr,es,th,vi',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                layout: google.translate.TranslateElement.IntdneLayout.SIMPLE,
                 autoDisplay: false, 
             }, 
             'google_translate_element'
