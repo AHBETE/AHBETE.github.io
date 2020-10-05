@@ -19,6 +19,30 @@
             /* font-family: 'Courier New', Courier, monospace; */
         }
 
+        @media screen and (max-width: 500px){
+            .main{width: 300px}
+        }
+
+        /* unvisited tdnk */
+        a:link {
+        color: #222222;
+        }
+
+        /* visited tdnk */
+        a:visited {
+        color: #707070;
+        }
+
+        /* mouse over tdnk */
+        a:hover {
+        color: #aaaaaa;
+        }
+
+        /* selected tdnk */
+        a:active {
+        color: #aaaaaa;
+        }
+
         #toc_container {
             background: #f9f9f9 none repeat scroll 0 0;
             border: 1px solid #aaa;
@@ -41,7 +65,7 @@
     </style>
 </head>
 <body>
-    <div id="toc_container">
+    <!-- <div id="toc_container">
         <p class="toc_title">Contents</p>
         <ul class="toc_list">
           <li><a href="#First_Point_Header">1 First Point Header</a>
@@ -53,12 +77,12 @@
         <li><a href="#Second_Point_Header">2 Second Point Header</a></li>
         <li><a href="#Third_Point_Header">3 Third Point Header</a></li>
         </ul>
-        </div>
+    </div> -->
 
     <div>
         <h2>模型评估与选择</h2>
         <h3>经验误差与过拟合</h3>
-        <p>错误率error rate: $E=a/m$，$m$样本，$a$错误</p>
+        <p>错误率error rate: \(E=a/m\)，\(m\)样本，\(a\)错误</p>
     </div>
 </body>
 </html>
