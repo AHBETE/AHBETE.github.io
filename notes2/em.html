@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>机器学习笔记</title>
+    <title>电磁笔记</title>
 
     <style>
         .main{
@@ -86,19 +86,7 @@
     <script type="text/javascript" id="MathJax-script" async
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
     </script>
-    <script>
-        $(document).ready(function(e) {
-            $("#content").children().each(function(index, element) {
-                var tagName=$(this).get(0).tagName;
-                if(tagName.substr(0,1).toUpperCase()=="H"){  
-                    var contentH=$(this).html();//获取内容
-                    var markid="mark-"+tagName+"-"+index.toString();
-                    $(this).attr("id",markid);//为当前h标签设置id
-                    $(".menu").append("<a href='#"+markid+"'>"+contentH+"</a>");//在目标DIV中添加内容   
-                }  
-            });
-        });
-    </script>    
+
 </head>
 <body>
     <div class="main">
@@ -116,13 +104,8 @@
         <li><a href="#Third_Point_Header">3 Third Point Header</a></li>
         </ul>
     </div> -->
-    <div class="menu"></div>
 
     <div>
-        <h1>模型评估与选择</h1>
-        <h2>经验误差与过拟合</h2>
-        <p>错误率error rate: \(E=a/m\)，\(m\)样本，\(a\)错误;精度accuracy：\(1-a/m\)。</p>
-        <p></p>
     </div>
 
 </div>
