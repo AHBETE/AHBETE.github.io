@@ -61,6 +61,8 @@
             content: counter(counter_h1)"."counter(counter_h2)"."counter(counter_h3);
         }
 
+        p{line-height: 1.5;}
+
         #toc_container {
             background: #f9f9f9 none repeat scroll 0 0;
             border: 1px solid #aaa;
@@ -104,10 +106,63 @@
         <li><a href="#Third_Point_Header">3 Third Point Header</a></li>
         </ul>
     </div> -->
+    <div>
+        <h1>Vector Analysis向量分析</h1>
+        <h2>Vector Operations向量运算</h2>
+
+        <p>Intro</p>
+        <ul>
+            <li>Basic</li>
+            <ul>
+                <li>Commutative交换 \(A+B=B+A\)</li>
+                <li>Associative结合 \(A+B+C=A+(B+C)\)</li>
+                <li>\(A-B=A+(-B)\)</li>
+                <li>Distributive分配 \(a(A+B)=aA+aB\)</li>
+            </ul>
+            <li>Dot product点乘</li>
+            <ul>
+                <li>\(A.B=|A||B|\cos{(\theta)}\)</li>
+                <li>\(A.B=B.A\)</li>
+                <li>\(A.(B+C)=A.B+A.C\)</li>
+                <li>\(A.A=A^2\)</li>
+                <li>\(A\perp B\rightarrow A.B=0\)</li>
+            </ul>
+            <li>Cross product叉乘</li>
+            <ul>
+                <li>\(A\times B=|A||B|\sin{(\theta)}\hat{n}\)</li>
+                <li>\(A\times (B+C)=A\times B+A\times C\)</li>
+                <li>\(B\times A=-(A\times B)\)</li>
+                <li>\(A\times A=0\)</li>
+                <li>\(A\times B\times C=A\times (B\times C)\)</li>
+            </ul>
+        </ul>
+
+        <ul>
+            <li>Component分量</li>
+            <ul>
+                <li>\(i.j=\delta_{ij}= \begin{cases} 1 \mbox{ if }i=j \\ 0 \mbox{ if }i\neq j\end{cases}\)</li>
+                <li>\(i\times j=\epsilon_{ijk}\)</li>
+                <li>\(A\times B=\begin{vmatrix}i & j & k\\ A_i & A_j & A_k\\B_i & B_j & B_k\end{vmatrix}\)</li>
+            </ul>
+        </ul>
+
+        <ul>
+            <li>Triple product</li>
+            <ul>
+                <li>\(A.(B\times C)=B.(C\times A)=C.(A\times B)=\begin{vmatrix}A_i & A_j & A_k\\B_i & B_j & B_k\\C_i & C_j & C_k\end{vmatrix}\)</li>
+                <li>\(A.(B\times C)=(A\times B).C\)</li>
+                <li>BAC-CAB rule: \(A\times B\times C=B(A.C)=C(A.B)\)</li>
+            </ul>
+        </ul>
+
+        <p>物理上，特别是电磁学中，经常使用以下标记，\(r'\): 原点至源(比如在研究电场时的带电粒子)的向量，\(r\)：原点至关注的点(例如希望找到空间中某一点电场强度时关注的点)的向量，\(\jmath=r-r'\)。</p>
+        <p>\(r=xi+yj+zk\)的向量长度:\(|r|=\sqrt{x^2+y^2+z^2}\)，单位向量:\(\hat{r}=\frac{r}{|r|}\)。</p>
+
+        <h2>Differential Calculus微分</h2>
+        
+    </div>
+
 
     <div>
-    </div>
-
-    </div>
 </body>
 </html>
