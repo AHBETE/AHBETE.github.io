@@ -1,0 +1,73 @@
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 728px;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+@media screen and (max-width: 500px){
+    .main{width: 300px}
+}
+
+/* unvisited tdnk */
+a:link {
+color: #222222;
+}
+
+/* visited tdnk */
+a:visited {
+color: #707070;
+}
+
+/* mouse over tdnk */
+a:hover {
+color: #aaaaaa;
+}
+
+/* selected tdnk */
+a:active {
+color: #aaaaaa;
+}
+
+p{line-height: 1.5;}
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+    /*ref： https://www.tipsandtricks-hq.com/simple-table-of-contents-toc-using-pure-html-and-css-code-9217 */
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: smaller;
+    line-height: 0.4;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
