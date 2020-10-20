@@ -66,6 +66,13 @@ footer{
     line-height: 0.4;
 }
 
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
 
 .goog-te-banner-frame{
     /* display:none */
