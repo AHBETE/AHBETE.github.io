@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1.1 Black Body Radiation</title>
+    <title>1.1 Black-Body Radiation</title>
 
     <link rel="stylesheet" href="../../css/note.css" type="text/css"/>
 
@@ -13,20 +13,20 @@
     </script>
 </head>
 <body>
-    <header>SiteMap: <a href="../../index.html">Home主页</a>/<a href="index.html">Baby Quantum</a></header>
+    <header>SiteMap: <a href="../../index.html">Home主页</a>/<a href="index.html">Baby Quantum</a>/1.1</header>
     <div class="main">
-        <h1>1.1 Black Body Radiation</h1>
+        <h1>1.1 Black-Body Radiation</h1>
         <div style="height: 1em;">
             <div style="float: left;"><a href="">&lt;previous|</a></div>
             <div style="float: right;"><a href="">|next&gt;</a></div>
             <div style="margin-left: 50%;"><a href="index.html">|up|</a></div>
         </div>
-        <p><b>Black body</b>: any object from which electromagnetic radiation emanates solely due to the thermal motion of its charges. Any radiation that strikes it must be absorbed.</p>
+        <p><b>Black-body</b>: any object from which electromagnetic radiation emanates solely due to the thermal motion of its charges. Any radiation that strikes it must be absorbed.</p>
         <h2>1.1.1 Spectral Energy Density</h2>
         <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Black_body.svg/1024px-Black_body.svg.png" alt="Spectral energy density plot" width="80%"><br>Image from Wikipedia</center>
         <p>
-            <b>Goal</b>: find$$dU=\text{ energy between }f\text{ to }df.$$
-            <b>Define</b>:$$dN(f)\equiv\text{number of modes between }f\text{ to }df,$$
+            <b>Goal</b>: find$$dU=\text{ energy between }f\text{ to }f+df.$$
+            <b>Define</b>:$$dN(f)\equiv\text{number of modes between }f\text{ to }f+df,$$
             $$\overline{E(f)}\equiv\text{average energy for a wave of freq }f.$$
         </p>
 
@@ -46,7 +46,7 @@
         <h3>Three Dimension</h3>
         <p>
             Now consider a 3-D case.
-            $$\Psi(x,t)=A\sin\left(\frac{n_x\pi x}{L}\right)\sin\left(\frac{n_x\pi y}{L}\right)\sin\left(\frac{n_z\pi x}{L}\right)\cos\left(2\pi ft\right),$$
+            $$\begin{align}\Psi(x,y,z,t)=A&\sin\left(\frac{n_x\pi x}{L}\right)\sin\left(\frac{n_y\pi y}{L}\right)\\&\sin\left(\frac{n_z\pi z}{L}\right)\cos\left(2\pi ft\right),\end{align}$$
             $$\frac{\partial^2}{\partial t^2}\Psi(x,t)=c^2\nabla^2\Psi(x,t).$$
             We obtain
             $$f=\frac{cn}{2L}\text{ with }n\equiv\sqrt{n_x^2+n_y^2+n_z^2}.$$
@@ -67,7 +67,7 @@
             <b>Classically</b>, there is no restriction on frequency (thus energy, as \(E=hf\)), the summation turns into an integration
             $$\overline{E}=\frac{\int_0^\infty E\mathrm{e}^{-E/k_BT}}{\int_0^\infty\mathrm{e}^{-E/k_BT}}=k_BT.$$
             This result leads to the <b>ultraviolet catastrophe</b>, as the spectral energy density would blow up at high frequency. In the year 1900, Max Planck was trying to solve the problem. By claiming the electromagnetic radiation with frequency \(f\) is only allowed to have energy \(E=nhf\), the new average energy is
-            $$\overline{E(f)}=\frac{\sum_{n=0}^\infty nhf\mathrm{e}^{-nhf/k_BT}}{\sum_{n=0}^\infty\mathrm{e}^{-nhf/k_BT}}=\frac{hf}{\mathrm{e}^{-nhf/k_BT}-1}.$$
+            $$\overline{E(f)}=\frac{\sum_{n=0}^\infty nhf\mathrm{e}^{-nhf/k_BT}}{\sum_{n=0}^\infty\mathrm{e}^{-nhf/k_BT}}=\frac{hf}{\mathrm{e}^{nhf/k_BT}-1}.$$
         </p>
 
         <h2>1.1.4 Spectral Energy Density</h2>
@@ -75,13 +75,13 @@
             <b>Clasiccal:</b>
             $$dU(f)=k_BT\frac{8\pi V}{c^3}f^2df.$$
             <b>Planck's spectral energy density:</b>
-            $$\bbox[silver]{dU(f)=\frac{hf}{\mathrm{e}^{-nhf/k_BT}-1}\frac{8\pi V}{c^3}f^2df}.$$
+            $$\bbox[silver]{dU(f)=\frac{hf}{\mathrm{e}^{nhf/k_BT}-1}\frac{8\pi V}{c^3}f^2df}.$$
         </p>
 
         <h2>1.1.5 Application</h2>
         <h3>Stefan-Bolzmann law(斯特藩－玻尔兹曼定律)</h3>
         $$I=\int\frac{c}{4\pi}dU=\sigma T^4,$$
-        here \(\sigma={(2\pi^5k_B^4)}/{(15c^2h^3)}=5.670\times10^-8Wm^{-2}K^{-4}.\)
+        here \(\sigma={(2\pi^5k_B^4)}/{(15c^2h^3)}=5.670\times10^{-8}Wm^{-2}K^{-4}.\)
         <h3>Wien's displacement law(维恩位移定律)</h3>
         By solving \({\partial(dU(\lambda)}/{\partial\lambda}=0\), we can find the peak wavelength of the radiation, which turned out to be
         $$\lambda_{\text{peak}}T=2.897\times10^{-3}m\cdot K$$
