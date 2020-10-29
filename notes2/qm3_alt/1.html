@@ -22,7 +22,7 @@
             <div style="float: right;"><a href="">|next&gt;</a></div>
             <div style="margin-left: 50%;"><a href="index.html">|up|</a></div>
         </div>
-
+        <br>
         根据<b>哥本哈根诠释</b>(<b>Copenhagen Interpretation</b>，现今主流的量子力学观点)，微观系统的状态可由一系列向量表示，称为<b>态向量</b>(<b>State Vector</b>)。取其中的一个向量\(\overrightarrow{\psi}\)进行研究，在量子力学中，将其重新改写为<b>右矢</b>(<b>Ket Vector</b>)的形式:
         \begin{equation}
         | \psi \rangle \text{,} \quad | \psi \rangle \in \mathcal{H}
@@ -39,9 +39,8 @@
         关系图如下所示：
         <center><img src="Dual1.PNG" alt="Dual" width="80%"><br>Fig 1.1 泛函形成的对偶空间的示意图</center>
         举几个简单的例子：当一个三维列向量\(\overrightarrow{x}\)作为\(\mathcal{H}\)的元素时，“横向量左点乘”： \(\overrightarrow{y}\cdot\) 就是一个位于其对偶空间\(\mathcal{H}^*\) 的泛函，因为
-        \begin{equation}
-        \begin{aligned}
-        F[\overrightarrow{x}] \equiv \overrightarrow{y} \cdot \overrightarrow{x} &= \left(
+        \begin{align}
+        F[\overrightarrow{x}] \equiv \overrightarrow{y} \cdot \overrightarrow{x} = \left(
         y_1  y_2  ...  y_n    
         \right)  
         \left(\def\arraystretch{1.1}\begin{array}{c}
@@ -50,9 +49,8 @@
             \vdots \\
             x_n
         \end{array}\right) \\
-        &= y_1x_1 + y_2x_2 + ... + y_nx_n = C \text{,} \quad C \in \mathbb{C}
-        \end{aligned}
-        \end{equation}
+        = y_1x_1 + y_2x_2 + ... + y_nx_n = C \text{,} \quad C \in \mathbb{C}
+        \end{align}
         其结果为一个复数。又例如，当一个函数\(\psi(x)\)为\(\mathcal{H}\)的元素时，“乘以某个函数再在整个定义域内积分”\(\int^\infty_{-\infty} \phi \cdot\) 也是一个泛函：
         \begin{equation}
         F[\overrightarrow{x}] \equiv    \int^\infty_{-\infty}\phi \cdot \psi = C \text{,} \quad C \in \mathbb{C}
@@ -117,9 +115,9 @@
             \langle u_j | u_i \rangle = \delta_{ji} \Leftrightarrow \langle \omega_\alpha | \omega_{\alpha^\prime} \rangle = \delta(\alpha, \alpha^\prime)
         \end{equation}</li>
             <li>向量在基上的分解：
-        \begin{equation}
-            | \psi \rangle =  \sum_i c_i | u_i \rangle \text{,} \quad c_i = \langle u_i | \psi \rangle \quad \Leftrightarrow \quad | \psi \rangle = \int c(\alpha) |\omega_\alpha \rangle d\alpha \text{,} \quad c(\alpha) = \langle \omega_\alpha | \psi \rangle
-        \end{equation}</li>
+        \begin{align}
+            | \psi \rangle =  \sum_i c_i | u_i \rangle \text{,} \quad c_i = \langle u_i | \psi \rangle \quad \\\Leftrightarrow \quad | \psi \rangle = \int c(\alpha) |\omega_\alpha \rangle d\alpha \text{,} \quad c(\alpha) = \langle \omega_\alpha | \psi \rangle
+        \end{align}</li>
             <li>全同操作：
         \begin{equation}
             \hat{I} = \sum_i |u_i \rangle \langle u_i | \Leftrightarrow \hat{I} = \int | \omega_\alpha \rangle \langle \omega_\alpha \rangle d\alpha
