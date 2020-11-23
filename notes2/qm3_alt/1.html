@@ -11,15 +11,22 @@
     <script type="text/javascript" id="MathJax-script" async
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
     </script>
+    <script type="text/javascript">
+        window.MathJax = {
+        tex: {
+            tags: 'ams'
+        }
+        };
+    </script>
 </head>
 <body>
     <header>SiteMap: <a href="../../index.html">Home主页</a>/<a href="../index.html">Notes v0.2</a>/<a href="index.html">Modern Quantum Mech.</a>/1</header>
     <div class="main">
-        <h2>State Vector Formalism</h2>
+        <h2>1 State Vector Formalism</h2>
         <p>Organized by Tim</p>
         <div style="height: 1em;">
             <div style="float: left;"><a href="">&lt;previous|</a></div>
-            <div style="float: right;"><a href="">|next&gt;</a></div>
+            <div style="float: right;"><a href="2.html">|next&gt;</a></div>
             <div style="margin-left: 50%;"><a href="index.html">|up|</a></div>
         </div>
         <br>
@@ -37,7 +44,7 @@
         F: \mathcal{H} \rightarrow \mathbb{C}
         \end{equation}
         关系图如下所示：
-        <center><img src="Dual1.PNG" alt="Dual" width="80%"><br>Fig 1.1 泛函形成的对偶空间的示意图</center>
+        <center><img src="1.1.PNG" alt="Dual" width="80%"><br>Fig 1.1 泛函形成的对偶空间的示意图</center>
         举几个简单的例子：当一个三维列向量\(\overrightarrow{x}\)作为\(\mathcal{H}\)的元素时，“横向量左点乘”： \(\overrightarrow{y}\cdot\) 就是一个位于其对偶空间\(\mathcal{H}^*\) 的泛函，因为
         \begin{align}
         F[\overrightarrow{x}] \equiv \overrightarrow{y} \cdot \overrightarrow{x} = \left(
@@ -160,7 +167,7 @@
             \langle \psi | \hat{O}^\dagger = \langle \psi^\prime | \text{,} \quad \hat{O}^\dagger : \mathcal{H}^* \rightarrow \mathcal{H}^*
         \end{equation}
         关系如Fig 1.2所示：
-        <center><img src="Dual2.PNG" alt="Dual" width="80%"><br>右矢在希尔伯特空间中的的变换以及左矢在对应对偶空间中的变换</center>
+        <center><img src="1.3.PNG" alt="Dual" width="80%"><br>Fig 1.3 右矢在希尔伯特空间中的的变换以及左矢在对应对偶空间中的变换</center>
         伴随具有以下性质：
         <ol>
             <li><b>对合性</b>(<b>Involutivity</b>)：即伴随的伴随为自身
@@ -196,7 +203,7 @@
         <hr>
         <div style="height: 1em;">
             <div style="float: left;"><a href="">&lt;previous|</a></div>
-            <div style="float: right;"><a href="">|next&gt;</a></div>
+            <div style="float: right;"><a href="2.html">|next&gt;</a></div>
             <div style="margin-left: 50%;"><a href="index.html">|up|</a></div>
         </div>
     </div>
