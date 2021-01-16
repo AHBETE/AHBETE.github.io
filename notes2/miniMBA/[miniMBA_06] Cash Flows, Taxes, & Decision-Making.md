@@ -1,7 +1,5 @@
 #  [miniMBA_06] Cash Flows, Taxes, & Decision-Making
 
-[toc]
-
 ### A Systematic Approach to Decision-Making
 
 Making good decisions requires a systematic approach. While such an approach can be useful in many situations, it is especially helpful when making investment decisions.

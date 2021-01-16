@@ -2,8 +2,6 @@
 
 # [miniMBA_05] Leveraging Disruptive Technology in the Digital World
 
-[toc]
-
 ### The Internet of Things
 
 - Represented by a shift from humans to computing devices as the focus of connection and communication of data to enhance personal and business processes

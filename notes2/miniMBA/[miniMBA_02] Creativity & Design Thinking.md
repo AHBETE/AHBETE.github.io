@@ -1,7 +1,5 @@
 # [miniMBA_02] Creativity & Design Thinking
 
-[toc]
-
 ### What is Creativity and Why is it Important?
 
 - - Creativity = both novel and useful
@@ -71,8 +69,6 @@ Entrepreneurship - enlisting others and bringing the idea to fruition
   - Don't judge your ideas until after the ideas are generated
 
 Use a creative diamond approach to brainstorming and start with a challenge question that poses what ***might*** be possible.
-
-![A diamond shaped flow of brainstorming that begins with a strong question and moves from an area of familiarity with first right answers to an area of discovery with unique ideas.  The flow then introduces convergence questions to determine the ideas that best meet the customer needs.](https://professional.miamioh.edu/assets/courseware/v1/40b4cd7fc1b61471eec96f93932354f5/asset-v1:miamioh+MMBA+2021_W1+type@asset+block/CreativeDiamondApproach.png)
 
 ##### Rules for Gathering Feedback
 

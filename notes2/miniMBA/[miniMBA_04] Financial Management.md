@@ -1,7 +1,5 @@
 # [miniMBA_04] Financial Management
 
-[toc]
-
 ### Valuation Methods
 
 One of most important roles of financial intermediaries (banks, investment banks, and private equity) is to allocate capital

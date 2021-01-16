@@ -1,7 +1,5 @@
 # [miniMBA_03] Change Management
 
-[toc]
-
 ### Ice Cubes vs. White Water Rapids: Understanding Past & Present Models of Change
 
 

@@ -1,7 +1,5 @@
 # [miniMBA_01] Entrepreneurship & Innovation
 
-[toc]
-
 ### What is Entrepreneurship?
 
 - Entrepreneurs can be anyone, anywhere. 
