@@ -25,18 +25,18 @@
       </script>
 </head>
 <body>
-    <header>SiteMap: <a href="../../index.html">Home主页</a>/<a href="../index.html">Notes v0.2</a>/<a href="index.html">Baby Quantum</a>/2.1</header>
+    <header>SiteMap: <a href="../../index.html">Home主页</a>/<a href="../index.html">Notes v0.2</a>/<a href="index.html">Baby Quantum</a>/2.3</header>
     <div class="main">
         <h1>2.3 The Free-Particle Schr&#246;dinger Equation</h1>
         <div style="height: 1em;">
             <div style="float: left;"><a href="2.2.html">&lt;previous|</a></div>
-            <div style="float: right;"><a href="">|next&gt;</a></div>
+            <div style="float: right;"><a href="3.0.html">|next&gt;</a></div>
             <div style="margin-left: 50%;"><a href="index.html">|up|</a></div>
         </div><br>
 
         <p>The wave equation obeyed by matter wave is the Schr&#246;dinger equation. For a single nonrelativistic massive particle, it can be expressed as</p>
         <div>$$
-        -\frac{\hbar^2}{2m}\frac{\part^2\Psi(x,t)}{\part x^2}=i\hbar\frac{\part \Psi(x,t)}{\part t}.
+        -\frac{\hbar^2}{2m}\frac{\partial^2\Psi(x,t)}{\partial x^2}=i\hbar\frac{\partial \Psi(x,t)}{\partial t}.
         $$</div>
         <p>In the next section we are going to see how this expression is derived.</p>
         <h2>2.3.1 Derivation</h2>
@@ -51,30 +51,30 @@
         $$</div>
         <p>Its second position derivative reads</p>
         <div>$$
-        \frac{\part^2\Psi(x,t)}{\part x^2}=(ik)^2\Psi(x,t)=-k^2\Psi(x,t).
+        \frac{\partial^2\Psi(x,t)}{\partial x^2}=(ik)^2\Psi(x,t)=-k^2\Psi(x,t).
         $$</div>
         <p>Recall from Section 2.2 Matter Wave that $k=p/\hbar$, </p>
         <div>$$
-        \frac{\part^2\Psi(x,t)}{\part x^2}=-\left(\frac{p^2}{\hbar^2}\right)\Psi(x,t).
+        \frac{\partial^2\Psi(x,t)}{\partial x^2}=-\left(\frac{p^2}{\hbar^2}\right)\Psi(x,t).
         $$</div>
         <p>Notice that we have $p^2$ on the right hand side, so if we reorganized the above form and plug it into the kinetic part of the energy relation at the beginning, we will get</p>
         <div>$$
-        \bbox[silver]{E\Psi(x,t)=\left(-\frac{\hbar^2}{2m}\frac{\part^2}{\part x^2}+U\right)\Psi(x,t).}
+        \bbox[silver]{E\Psi(x,t)=\left(-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}+U\right)\Psi(x,t).}
         $$</div>
         <p>This is called the time independent Schr&#246;dinger equation.</p>
         <h3>Temporal Part</h3>
         <p>Next, let&#39;s consider the time derivative</p>
         <div>$$
-        \frac{\part\Psi(x,y)}{\part t}=-i\omega\Psi(x,t).
+        \frac{\partial\Psi(x,y)}{\partial t}=-i\omega\Psi(x,t).
         $$</div>
         <p>Also from Section 2.2 Matter Wave, we have $E=\hbar\omega$, thus</p>
         <div>$$
-        E\Psi(x,t)=i\hbar\frac{\part\Psi(x,y)}{\part t}.
+        E\Psi(x,t)=i\hbar\frac{\partial\Psi(x,y)}{\partial t}.
         $$</div>
         <h3>The Whole Picture</h3>
         <p>Now combine above two parts together, what we get is</p>
         <div>$$
-        \bbox[silver]{i\hbar\frac{\part\Psi(x,y)}{\part t}=\left(-\frac{\hbar^2}{2m}\frac{\part^2}{\part x^2}+U\right)\Psi(x,t).}
+        \bbox[silver]{i\hbar\frac{\partial\Psi(x,y)}{\partial t}=\left(-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}+U\right)\Psi(x,t).}
         $$</div>
         <h2>2.3.2 Probability Density</h2>
         <p>By the Copenhagen interpretation, the wave function itself does not have any meaning, but the modules square at certain time and position of it represent the probability of the particle appearing in that time and position.</p>
@@ -84,7 +84,7 @@
 
         <div style="height: 1em;">
             <div style="float: left;"><a href="2.2.html">&lt;previous|</a></div>
-            <div style="float: right;"><a href="">|next&gt;</a></div>
+            <div style="float: right;"><a href="3.0.html">|next&gt;</a></div>
             <div style="margin-left: 50%;"><a href="index.html">|up|</a></div>
         </div>
     </div>
