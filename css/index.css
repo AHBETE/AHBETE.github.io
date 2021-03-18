@@ -43,6 +43,18 @@ a:active {
 color: #aaaaaa;
 }
 
+.tab{
+    height: 1.5em;
+    width: auto;
+    border-style: outset;
+    display: inline-block;
+}
+
+.tab p{
+    font-size: small;
+    line-height: 0;
+}
+
 footer{
     position: fixed;
     left: 0;
