@@ -1,0 +1,17 @@
+
+.video iframe{
+margin: auto;
+width: 64vw; 
+height: 36vw; /* 16:9 */
+}
+
+img{
+    max-width: 600px;
+    max-height: 600px;
+    height:auto;
+    zoom:expression( function(e) {
+    if(e.width>e.height) {if (e.width>600) { e.height = e.height*(600 /e.width); e.width=600; }}
+    else {if (e.height>600) { e.width = e.width*(600 /e.height); e.height=600; }}
+    e.style.zoom = '1';     }(this));
+        overflow:hidden; 
+}
