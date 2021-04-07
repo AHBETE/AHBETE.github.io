@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/index.css" type="text/css"/>
-    <title>content</title>
+    <script>
+        $('details').click(function (event) {
+            $('details').removeAttr("open");  
+        });
+    </script>
+    <title>Contents</title>
 </head>
 <body>
     <header>SiteMap: <a href="../../index.html">Home主页</a>/<a href="../index.html">Notes</a>/Baby Quantum Mech.</header>
@@ -15,7 +20,7 @@
     <div class="main">
         <div style="word-break:break-word; display: inline-block; height: 80%; position: absolute;">
             <details>
-                <summary style="background-color: white; border-style: dotted;">Contents (Click to open)</summary>
+                <summary style="background-color: white; border-style: dotted;"><u><b>Contents (Click to open/hide)</b></u></summary>
             <ul style="background-color: white; border-style: dotted;">
                 <li><a href="0.html" target= "main">0 Introduction</a></li>
                 <li>1 Waves and Particles I: EM radiation as Particles</li>
