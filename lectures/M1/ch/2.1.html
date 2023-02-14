@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.1</title>
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath:[['$','$'],['\\(','\\)']]
+            }
+        };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <h3>2.1.1 System of Equations <br>方程组</h3>
+    <p>
+    通常解法, 例如有下式: 
+    \begin{equation*}
+        \begin{cases}
+        ax+by=c,\text{ (1)}\\
+        dx+ey=f,\text{ (2)}
+        \end{cases}
+    \end{equation*}
+    其中$\{x,y\}$是代求的未知数, $\{a,b,c,d,e,f\}$是常数. 则可先讲式(1)变形为$x=...$的形式, 然后将此$x$的表达式代入式(2), 这样便消掉了式(2)中的$x$使其只剩下$y$与常数, 这样就可以解出$y$; 再将$y$的结果代入式(1)或者式(2)即可解出$x$.
+    </p>
+    <h3>2.1.2 Quadratic Equations <br>二元一次方程</h3>
+    <p>通常解法, 例如有下式: 
+        \begin{equation*}
+            ax^2+bx+c=0,
+        \end{equation*}
+        其中$x$是带求的未知数, $\{a,b,c\}$是常数. 可以用求根公式来求解
+        \begin{equation*}
+            x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}.
+        \end{equation*}</p>
+</body>
+</html>

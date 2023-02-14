@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanics 1</title>
+    <style>
+        * {
+          box-sizing: border-box;
+          /* margin: 0;
+          padding: 0; */
+        }
+
+        /* html {
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+        } */
+        
+        body {
+          /* position: fixed;
+          margin: 0; */
+          font-family: Arial, Helvetica, sans-serif;
+          /* width: 100%;
+          height: 100%; */
+        }
+
+        /* @media screen and (orientation: portrait) {
+          body {
+            transform-origin:0, 0;
+            transform: rotateZ(90deg) translateY(-100%);
+          }
+        } */
+        
+        /* Style the side navigation */
+        .sidenav {
+          height: 100%;
+          width: 200px;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #111;
+          overflow-x: hidden;
+        }
+        
+        
+        /* Side navigation links */
+        .sidenav a {
+          color: white;
+          padding-left: 16px;
+          padding-bottom: 4px;
+          text-decoration: none;
+          display: block;
+        }
+
+        .sidenav h1 {
+          color: white;
+          padding-left: 12px;
+          text-decoration: none;
+          font-size: default;
+          display: block;
+        }
+
+        .sidenav h2 {
+          color: white;
+          padding-left: 14px;
+          text-decoration: none;
+          font-size: default;
+          display: block;
+        }
+        
+        /* Change color on hover */
+        .sidenav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        /* Style the content */
+        .content {
+          margin-left: 200px;
+          padding-left: 20px;
+        }
+        </style>
+</head>
+<body>
+        
+    <div class="sidenav">
+        <h1>I Preparation <br>准备</h1>
+        <h2>1 Basics <br>基础</h2>
+        <a href="ch/1.1.html" target="cont">1.1 Constructing a Model <br>建立模型</a>
+        <a href="ch/1.2.html" target="cont">1.2  Modelling Assumptions <br>模型假设</a>
+        <a href="ch/1.3.html" target="cont">1.3 Quantities, Units, and Forces <br>物理量, 单位, 和力</a>
+        <h2>2 Mathematical Background <br>数学背景</h2>
+        <a href="ch/2.1.html" target="cont">2.1 Algebra <br>代数</a>
+        <a href="ch/2.2.html" target="cont">2.2 Trigonometry <br>三角函数</a>
+        <a href="ch/2.3.html" target="cont">2.3 Vector <br>矢量</a>
+        <h1>II Kinematics <br>运动学</h1>
+    </div>
+    
+    <div class="content">
+        <h1>Edexcel Mechanics 1</h1>
+        <h2>Albert Wang</h2>
+        <p>Last updated 2023/2.</p>
+        <iframe name="cont" src="ch/1.1.html" frameborder="0" width="100%" height="728px"></iframe>
+    </div>
+    
+    <!-- <script>
+      (function() {
+        function resize() {
+          var body = document.getElementsByTagName('body')[0];
+          var html = document.getElementsByTagName('html')[0];
+          var width = html.clientWidth;
+          var height = html.clientHeight;
+          var max = width > height ? width : height;
+          var min = width > height ? height : width;
+          body.style.width = max + "px";
+          body.style.height = min + "px";
+        }
+        resize();
+        window.addEventListener("resize",resize)
+      }
+      )();
+    </script> -->
+</body>
+</html>

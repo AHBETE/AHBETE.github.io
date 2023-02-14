@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.1</title>
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath:[['$','$'],['\\(','\\)']]
+            }
+        };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        table {
+            width: 90%;
+            margin: auto;
+            font-size: small;
+        }
+        td {
+            border-bottom: 1px solid;
+            padding: 8px;
+        }
+        th {
+            border-top: 1px solid;
+            border-style: solid none double none;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <figure>
+        <img src="../img/trig_1.svg" alt="" width="20%">
+        <figcaption>opposite - 对边; adjacent - 邻边; hypotenuse - 斜边.</figcaption>
+    </figure>
+    <p>
+        \begin{gather*}
+            \sin(\theta)=\frac{\text{opposite}}{\text{hypotenuse}},\\
+            \cos(\theta)=\frac{\text{adjacent}}{\text{hypotenuse}},\\
+            \tan(\theta)=\frac{\text{opposite}}{\text{adjacent}}.
+        \end{gather*}
+    </p>
+    <h3>2.1.1 Law of Sine <br>正弦定理</h3>
+    <figure>
+        <img src="../img/trig_2.svg" alt="" width="20%">
+    </figure>
+    <p>
+        \begin{equation*}
+            \frac{a}{\sin(\alpha)}=\frac{b}{\sin(\beta)}=\frac{c}{\sin(\gamma)}.
+        \end{equation*}
+    </p>
+    <h3>2.2.2 Law of Cosine <br>余弦定理</h3>
+    <p>
+        \begin{align*}
+            a^2=b^2+c^2-2bc\cos(\alpha),\\
+            b^2=a^2+c^2-2ac\cos(\beta),\\
+            c^2=a^2+b^2-2ab\cos(\gamma).
+        \end{align*}
+    </p>
+</body>
+</html>
