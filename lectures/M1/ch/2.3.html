@@ -43,10 +43,10 @@
     <p>Column vector 2D:</p>
     <p>列向量(二维): </p>
     <p>\begin{equation*}
-        \mathbold{p}=\begin{pmatrix}ab\\end{pmatrix}.
+         \boldsymbol{p}=\begin{pmatrix}a\\b\end{pmatrix}.
     \end{equation*}</p>
-    <p>The above equation means that, vector $\mathbold{p}$ has $x$-component $a$, and $y$-component $b$.</p>
-    <p>上式表达的是, 矢量$\mathbold{p}$的平行于$x$-轴方向分量为$a$, 平行于$y$-轴方向分量为$b$. (注意: 教材、讲义和课件中, 通常用加粗表示矢量, 板书和笔记中则用类似$\vec{p}$来标记). </p>
+    <p>The above equation means that, vector $ \boldsymbol{p}$ has $x$-component $a$, and $y$-component $b$.</p>
+    <p>上式表达的是, 矢量$ \boldsymbol{p}$的平行于$x$-轴方向分量为$a$, 平行于$y$-轴方向分量为$b$. (注意: 教材、讲义和课件中, 通常用加粗表示矢量, 板书和笔记中则用类似$\vec{p}$来标记). </p>
 
     <p>A unit vector has length 1. The unit vectors along the Cartesian axes are usually denoted by $\hat{\imath}$ and $\hat{\jmath}$.</p>
     <p>单位矢量长度为1. 平行于笛卡尔坐标系(平面直角坐标系)的坐标轴的单位矢量通常记作$\hat{\imath}$和$\hat{\jmath}$. </p>
@@ -54,9 +54,9 @@
     <p>$\hat{\imath}$ and $\hat{\jmath}$ notation:</p>
     <p>$\hat{\imath}$和$\hat{\jmath}$标记: </p>
 
-    <p>有了单位矢量$\hat{\imath}$和$\hat{\jmath}$,  矢量$\mathbold{p}$可以这样表示</p>
+    <p>有了单位矢量$\hat{\imath}$和$\hat{\jmath}$,  矢量$ \boldsymbol{p}$可以这样表示</p>
     <p>\begin{equation*}
-        \mathbold{p}=a\hat{\imath}+b\hat{\jmath}.
+         \boldsymbol{p}=a\hat{\imath}+b\hat{\jmath}.
     \end{equation*}</p>
 
     <h3>2.3.2 Vector Algebra <br>矢量运算</h3>
@@ -67,9 +67,9 @@
     Addition can be completed by adding the terms in $\hat{\imath}$ and $\hat{\jmath}$ separately. I.e.,
     加法可以通过将带$\hat{\imath}$的项相加, 在将带$\hat{\jmath}$的项相加完成. (对$\hat{\imath}$和$\hat{\jmath}$分量分别相加). 即: 
     \begin{gather*}
-        \mathbold{p}=a\hat{\imath}+b\hat{\jmath},
-        \mathbold{q}=c\hat{\imath}+d\hat{\jmath},
-        \mathbold{p}+\mathbold{q}=(a+c)\hat{\imath}+(b+d)\hat{\jmath}.
+         \boldsymbol{p}=a\hat{\imath}+b\hat{\jmath},
+         \boldsymbol{q}=c\hat{\imath}+d\hat{\jmath},
+         \boldsymbol{p}+ \boldsymbol{q}=(a+c)\hat{\imath}+(b+d)\hat{\jmath}.
     \end{gather*}
 
     Subtraction can be completed similarly.
@@ -85,8 +85,8 @@
     Multiplication to a scalar/division by a scalar
     乘/除以一个标量
     \begin{gather*}
-        \mathbold{p}=a\hat{\imath}+b\hat{\jmath},
-        e\mathbold{p}=(ae)\hat{\imath}+(be)\hat{\jmath}.
+         \boldsymbol{p}=a\hat{\imath}+b\hat{\jmath},
+        e \boldsymbol{p}=(ae)\hat{\imath}+(be)\hat{\jmath}.
     \end{gather*}
 
     \subsection{Magnitude and Direction}
@@ -95,15 +95,15 @@
     Magnitude of a vector can be found using Pythagoras' theorem,
     矢量的大小(模)可以通过勾股定理来求, 
     \begin{gather*}
-        \mathbold{p}=a\hat{\imath}+b\hat{\jmath},
-        \tcboxmath{|\mathbold{p}|=\sqrt{a^2+b^2}.}
+         \boldsymbol{p}=a\hat{\imath}+b\hat{\jmath},
+        {| \boldsymbol{p}|=\sqrt{a^2+b^2}.}
     \end{gather*}
 
     Direction of a vector can be found using trigonometry. For example, the direction of a vector with respect to positive $x$-axis direction is
     矢量的方向可以用三角函数来求. 例如, 一个矢量和$x$轴正方向的夹角$\theta$是
     \begin{gather*}
-        \mathbold{p}=a\hat{\imath}+b\hat{\jmath},
-        \tcboxmath{\theta=\tan^{-1}\left(\frac{b}{a}\right).}
+         \boldsymbol{p}=a\hat{\imath}+b\hat{\jmath},
+        {\theta=\tan^{-1}\left(\frac{b}{a}\right).}
     \end{gather*}
 
     \textbf{Bearing} is a direction measured from north and it tracks angle in clockwise direction with north line which means north represents 0 degree, east is 90 degrees, south is 180 degrees and west is 270 degrees.
@@ -119,22 +119,22 @@
     \subsection{Parallel Vectors}
     {\Large 2.3.4 平行矢量}
 
-    It is not hard to see that an arbitrary vector, say $\mathbold{p}=a\hat{\imath}+b\hat{\jmath}$ is parallel to its scalar multiplication, for example $e\mathbold{p}=(ae)\hat{\imath}+(be)\hat{\jmath}$, as their direction are the same
-    不难看出, 任意一矢量, 比如$\mathbold{p}=a\hat{\imath}+b\hat{\jmath}$和它的标量积结果, 比如$e\mathbold{p}=(ae)\hat{\imath}+(be)\hat{\jmath}$, 是平行的, 因为他们的方向一致
+    It is not hard to see that an arbitrary vector, say $ \boldsymbol{p}=a\hat{\imath}+b\hat{\jmath}$ is parallel to its scalar multiplication, for example $e \boldsymbol{p}=(ae)\hat{\imath}+(be)\hat{\jmath}$, as their direction are the same
+    不难看出, 任意一矢量, 比如$ \boldsymbol{p}=a\hat{\imath}+b\hat{\jmath}$和它的标量积结果, 比如$e \boldsymbol{p}=(ae)\hat{\imath}+(be)\hat{\jmath}$, 是平行的, 因为他们的方向一致
     \begin{equation*}
         \tan^{-1}\left(\frac{ae}{be}\right)=\tan^{-1}\left(\frac{a}{b}\right).
     \end{equation*}
 
-    It is not hard to see that, [the ratio of $\hat{\imath}$-component of $\mathbold{p}$ and that of $e\mathbold{p}$] is same as [the ratio of $\hat{\jmath}$-component of $\mathbold{p}$ and that of $e\mathbold{p}$]. Then in general, for an arbitrary set of parallel vectors, the ratio of their $\hat{\imath}$-component should be same as the ratio of their $\hat{\jmath}$-component.
-    不难看出, [$\mathbold{p}$的$\hat{\imath}$分量与$e\mathbold{p}$的$\hat{\imath}$的比值]与[$\mathbold{p}$的$\hat{\jmath}$分量与$e\mathbold{p}$的$\hat{\jmath}$的比值]相等. 类推可得, 任意一对平行向量, 它们的$\hat{\imath}$分量的比值应该等于$\hat{\jmath}$分量的比值.
+    It is not hard to see that, [the ratio of $\hat{\imath}$-component of $ \boldsymbol{p}$ and that of $e \boldsymbol{p}$] is same as [the ratio of $\hat{\jmath}$-component of $ \boldsymbol{p}$ and that of $e \boldsymbol{p}$]. Then in general, for an arbitrary set of parallel vectors, the ratio of their $\hat{\imath}$-component should be same as the ratio of their $\hat{\jmath}$-component.
+    不难看出, [$ \boldsymbol{p}$的$\hat{\imath}$分量与$e \boldsymbol{p}$的$\hat{\imath}$的比值]与[$ \boldsymbol{p}$的$\hat{\jmath}$分量与$e \boldsymbol{p}$的$\hat{\jmath}$的比值]相等. 类推可得, 任意一对平行向量, 它们的$\hat{\imath}$分量的比值应该等于$\hat{\jmath}$分量的比值.
 
     From here, we can conclude that, for a set of parallel vectors, if there are parallel, then we have
     继而便有结论, 若一对向量平行, 则有
     \begin{gather*}
-        \mathbold{p}=a\hat{\imath}+b\hat{\jmath},
-        \mathbold{q}=c\hat{\imath}+d\hat{\jmath},
-        \text{If }\mathbold{p}\parallel\mathbold{q},
-        \tcboxmath{\text{then }\frac{a}{c}=\frac{b}{d}, \text{ or }\frac{a}{b}=\frac{c}{d}.}
+         \boldsymbol{p}=a\hat{\imath}+b\hat{\jmath},
+         \boldsymbol{q}=c\hat{\imath}+d\hat{\jmath},
+        \text{If } \boldsymbol{p}\parallel \boldsymbol{q},
+        {\text{then }\frac{a}{c}=\frac{b}{d}, \text{ or }\frac{a}{b}=\frac{c}{d}.}
     \end{gather*}
 
     Special case: when a vector is parallel to $\hat{\imath}$, then its $\hat{\jmath}$-component (coefficient of $\hat{\jmath}$) is zero; or when a vector is parallel to $\hat{\jmath}$, then its $\hat{\imath}$-component (coefficient of $\hat{\imath}$) is zero.
